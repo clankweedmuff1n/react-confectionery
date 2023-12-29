@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-confectionery/static/css/main.05331513.css",
-    "main.js": "/react-confectionery/static/js/main.59f62168.js",
+    "main.js": "/react-confectionery/static/js/main.3905f7ba.js",
     "static/js/787.c5a34d5d.chunk.js": "/react-confectionery/static/js/787.c5a34d5d.chunk.js",
     "index.html": "/react-confectionery/index.html",
     "main.05331513.css.map": "/react-confectionery/static/css/main.05331513.css.map",
-    "main.59f62168.js.map": "/react-confectionery/static/js/main.59f62168.js.map",
+    "main.3905f7ba.js.map": "/react-confectionery/static/js/main.3905f7ba.js.map",
     "787.c5a34d5d.chunk.js.map": "/react-confectionery/static/js/787.c5a34d5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05331513.css",
-    "static/js/main.59f62168.js"
+    "static/js/main.3905f7ba.js"
   ]
 }
