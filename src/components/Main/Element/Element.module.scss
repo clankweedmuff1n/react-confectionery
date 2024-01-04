@@ -1,0 +1,11 @@
+.element {
+  position: relative;
+  width: 100%;
+  background-color: white;
+
+  &::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+}

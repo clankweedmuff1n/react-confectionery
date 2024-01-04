@@ -1,0 +1,40 @@
+.description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #282828;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-size: contain;
+  background-blend-mode: difference;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://legrenierapain.com/wp-content/plugins/phastpress/phast.php?service=images&src=https%3A%2F%2Flegrenierapain.com%2Fwp-content%2Fuploads%2F2020%2F12%2FIMG_0330-2.png&cacheMarker=1625475797-15243&token=07c791f2aa333d23);
+
+  &__wrapper {
+    margin: 2rem auto 2rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #f0e4db;
+    @media only screen and (max-width: 1024px) {
+      width: 85%;
+    }
+
+    @media only screen and (max-width: 600px) {
+      width: 90%;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,100 @@
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: black;
+
+  &__element {
+    width: 100%;
+    /*height: fit-content;*/
+    background: url("https://i.imgur.com/YHizduJ.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &__title {
+    z-index: 3;
+    font-size: 4rem;
+    line-height: 7rem;
+    font-weight: bold;
+
+    @media only screen and (max-width: 800px) {
+      font-size: 3rem;
+    }
+
+    @media only screen and (max-width: 420px) {
+      line-height: 4rem;
+    }
+  }
+
+  &__subtitle {
+    z-index: 3;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 3rem;
+    @media only screen and (max-width: 800px) {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+
+    @media only screen and (max-width: 420px) {
+      margin-left: 2rem;
+      margin-right: 2rem;
+      line-height: 2.5rem;
+    }
+  }
+
+  &__button {
+    z-index: 3;
+    
+    color: #000000;
+    border-width: 2px;
+    border-color: #f0e4db;
+    border-radius: 0;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #f0e4db;
+    font-weight: bold;
+    padding: 0.7rem;
+    margin-top: 1rem;
+  }
+
+  &__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 100%;
+  }
+
+  &__overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease 0ms;
+    background-color: rgba(38, 38, 38, 0.69);
+    opacity: 1;
+  }
+
+  &__element:hover + &__overlay {
+    opacity: 0;
+  }
+}

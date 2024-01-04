@@ -1,0 +1,24 @@
+.reviews {
+  background-color: #f0e4db;
+  &__title {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__wrapper {
+    margin: 2rem auto 2rem;
+    justify-content: space-between;
+    display: flex;
+    width: 60%;
+    @media only screen and (max-width: 1024px) {
+      width: 85%;
+    }
+
+    @media only screen and (max-width: 800px) {
+      flex-direction: column;
+    }
+  }
+}

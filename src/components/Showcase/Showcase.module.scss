@@ -1,0 +1,116 @@
+.showcase {
+  display: flex;
+  padding: 4rem;
+  max-width: 100%;
+  overflow: hidden;
+  color: darkslateblue;
+  color: indigo;
+  color: mediumvioletred;
+  background-color: #F0E4F8;
+  align-items: center;
+
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding: 0;
+  }
+
+  &__main {
+    background-color: #DEACEF;
+    box-shadow: 0 15px 5px #888;
+    min-width: 50%;
+    border-radius: 2rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media only screen and (max-width: 600px) {
+      padding: 0 0 2rem 0;
+      border-radius: 0;
+    }
+  }
+
+  &__swiper {
+    overflow: visible;
+    width: 50%;
+    border-radius: 2rem;
+    background-color: transparent;
+    @media only screen and (max-width: 1024px) {
+      margin-top: 2rem;
+      width: 90%;
+    }
+
+    @media only screen and (max-width: 600px) {
+      border-radius: 0;
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  &__main_image {
+    width: 90%;
+    border-radius: 2rem;
+    @media only screen and (max-width: 1024px) {
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 600px) {
+      border-radius: 0;
+    }
+  }
+
+  &__main_title {
+    margin: 0 auto;
+    padding-top: 2rem;
+    font-size: 3.75rem;
+    font-weight: bold;
+
+    line-height: 1;
+    @media only screen and (max-width: 600px) {
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+
+  &__main_text {
+    padding-top: 1.5rem;
+    font-size: 2rem;
+    line-height: 1.25;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  &__main_text:hover {
+    color: white;
+  }
+
+  &__button_wrapper {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+
+  &__main_button {
+    // telegram instagram viber whatsapp
+    // phone number
+    margin: 2rem auto 0;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: color 0.2s ease-in-out;
+  }
+
+  &__main_button:hover {
+    color: white;
+  }
+}
