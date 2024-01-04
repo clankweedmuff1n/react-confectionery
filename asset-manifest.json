@@ -1,15 +1,28 @@
 {
   "files": {
-    "main.css": "/react-confectionery/static/css/main.05331513.css",
-    "main.js": "/react-confectionery/static/js/main.3905f7ba.js",
+    "main.css": "/react-confectionery/static/css/main.15247771.css",
+    "main.js": "/react-confectionery/static/js/main.13874b6d.js",
     "static/js/787.c5a34d5d.chunk.js": "/react-confectionery/static/js/787.c5a34d5d.chunk.js",
+    "static/media/main.jpg": "/react-confectionery/static/media/main.a73055be0fe688fda5cd.jpg",
+    "static/media/main-image.jpg": "/react-confectionery/static/media/main-image.f52966e29787186bea12.jpg",
+    "static/media/swiper4.jpg": "/react-confectionery/static/media/swiper4.feb15af59de2652e847b.jpg",
+    "static/media/swiper13.jpg": "/react-confectionery/static/media/swiper13.0bd4b63da89ff0e66f49.jpg",
+    "static/media/swiper7.jpg": "/react-confectionery/static/media/swiper7.305faa7ec388eecf3b09.jpg",
+    "static/media/swiper12.jpg": "/react-confectionery/static/media/swiper12.4072e6f6f40dc78c14e1.jpg",
+    "static/media/swiper10.jpg": "/react-confectionery/static/media/swiper10.e486a2203ac3cf8354ac.jpg",
+    "static/media/swiper14.jpg": "/react-confectionery/static/media/swiper14.d0b2350f3d664a478cae.jpg",
+    "static/media/swiper11.jpg": "/react-confectionery/static/media/swiper11.cb3a166d6615f022afd7.jpg",
+    "static/media/swiper2.jpg": "/react-confectionery/static/media/swiper2.22a6ee0c73be6ea05444.jpg",
+    "static/media/swiper5.jpg": "/react-confectionery/static/media/swiper5.18edf98007f6d4600f93.jpg",
+    "static/media/swiper3.jpg": "/react-confectionery/static/media/swiper3.4a33d4a66359ce9eaa5b.jpg",
+    "static/media/swiper9.jpg": "/react-confectionery/static/media/swiper9.0773016e7fbe7642c74b.jpg",
     "index.html": "/react-confectionery/index.html",
-    "main.05331513.css.map": "/react-confectionery/static/css/main.05331513.css.map",
-    "main.3905f7ba.js.map": "/react-confectionery/static/js/main.3905f7ba.js.map",
+    "main.15247771.css.map": "/react-confectionery/static/css/main.15247771.css.map",
+    "main.13874b6d.js.map": "/react-confectionery/static/js/main.13874b6d.js.map",
     "787.c5a34d5d.chunk.js.map": "/react-confectionery/static/js/787.c5a34d5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05331513.css",
-    "static/js/main.3905f7ba.js"
+    "static/css/main.15247771.css",
+    "static/js/main.13874b6d.js"
   ]
 }
