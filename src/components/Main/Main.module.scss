@@ -10,7 +10,7 @@
     margin: 4rem auto;
     display: grid;
     /*margin: 4rem 8rem 0 8rem;*/
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr /*1fr*/;
     width: 70%;
 
     @media only screen and (max-width: 1024px) {

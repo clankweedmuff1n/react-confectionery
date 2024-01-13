@@ -3,6 +3,10 @@ import styleMain from './Main.module.scss';
 import ImageElement from "./Element/ImageElement/ImageElement";
 import TextElement from "./Element/TextElement/TextElement";
 
+import MussImage from "../../assets/img/swiper-images/muss.jpg";
+import BisImage from "../../assets/img/bisquit.jpg";
+
+
 const Main = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     useEffect(() => {
@@ -55,11 +59,11 @@ const Main = () => {
     const imageElementsArray = [
         <ImageElement
             /*src="https://arctictreehousehotel.com/wp-content/uploads/2023/09/Arctic-treehouse-suite-lounge.jpg"*/
-            src="https://images.squarespace-cdn.com/content/v1/5fcda25ade434d6c8f027054/1650013248692-8DC49YR34NV5YN934745/customised-bento-cake-singapore.png?format=750w"
+            src={MussImage}
             alt="change this"/>,
         <ImageElement
             /*src="https://arctictreehousehotel.com/wp-content/uploads/2023/12/villa-viima-arctic-treehousehotel-rovaniemi-lapland.jpg"*/
-            src="https://i.imgur.com/mS9ynOT.png"
+            src={BisImage}
             alt="change this"/>,
         <ImageElement
             /*src="https://arctictreehousehotel.com/wp-content/uploads/2023/11/Rakas-restaurant-ala-carte-winter-menu.jpg"*/
@@ -102,7 +106,7 @@ const Main = () => {
         <section className={styleMain.main}>
             <div className={styleMain.main__container}>
                 {textElementsArray.map((textElement, index) => {
-                    if ((windowWidth > 800 || index % 2 !== 0) && windowWidth >= 420) {
+                    if ((/*windowWidth > 800 ||*/ index % 2 === 0) && windowWidth >= 420) {
                         return (
                             <>
                                 {textElement}

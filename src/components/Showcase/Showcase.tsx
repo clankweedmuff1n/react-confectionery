@@ -26,17 +26,25 @@ import {IGIcon} from "./Icones/IGIcon";
 import {TGIcon} from "./Icones/TGIcon";
 import {WhatsappIcon} from "./Icones/WhatsappIcon";
 import {ViberIcon} from "./Icones/ViberIcon";
+import {NavigateFunction, useNavigate} from "react-router-dom";
 
 interface OwnProps {
+    navigate: NavigateFunction
 }
 
 type Props = OwnProps;
 
 type State = Readonly<{
-    width: number
+    width: number,
 }>;
 
-class Showcase extends PureComponent<Props, State> {
+export const Showcase: React.FC<{}> = () => {
+    const navigate = useNavigate()
+    return <ShowcaseInner navigate={navigate} />
+}
+
+
+class ShowcaseInner extends PureComponent<Props, State> {
     readonly state: State = {
         width: window.innerWidth
     };
@@ -64,7 +72,7 @@ class Showcase extends PureComponent<Props, State> {
         ]
         return (
             <>
-                <div className={stylesShowcase.showcase}>
+                <div className={stylesShowcase.showcase} onClick={() => this.props.navigate('/showcase')}>
                     <div className={stylesShowcase.showcase__main}>
                         <img className={stylesShowcase.showcase__main_image}
                              src={MainImage}/>

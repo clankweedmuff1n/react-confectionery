@@ -1,0 +1,12 @@
+.category {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  margin: 0.5rem;
+  width: fit-content;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}

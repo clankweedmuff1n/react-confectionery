@@ -1,0 +1,34 @@
+.catalog {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.product_section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.title {
+  text-align: center;
+  font-size: 4rem;
+  line-height: 1;
+  margin: 1rem auto 1rem;
+}
+
+.filter {
+  width: 90%;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.category_container {
+  margin: 0 auto;
+  display: flex;
+  width: 90%;
+}
